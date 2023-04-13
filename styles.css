@@ -7,7 +7,6 @@
 }
 body{
     font-family: sans-serif;
-    /* background-image: linear-gradient(to bottom right,rgba(79,51,176,1),rgba(210,53,165)); */
     background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
 
 }
@@ -33,10 +32,10 @@ body{
     cursor: pointer;
     z-index: 1;
 }
-.theme-toggler .active{
+.theme-toggler.active{
     color: #333;
 }
-.theme-toggler .active::before{
+.theme-toggler.active::before{
     background-color: white;
 }
 .theme-toggler::before{
